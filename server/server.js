@@ -6,9 +6,9 @@ app.get('/', (req, res) => {
     res.send('this is working.')
 })
 
-// app.listen(3000, () => {
-//     console.log('app is running biatch 3000')
-// })
+app.listen(3000, () => {
+    console.log('app is running biatch 3000')
+})
 
 
 // TO-DO
